@@ -27,6 +27,18 @@ firebase login
 
 好啦！你可以開始用了。
 
+## 安裝 Cloud Functions
+
+要完成 Cloud Functions 設置，請執行以下指令：
+
+```
+firebase init functions
+```
+
+然後照著互動完成專案設置。
+（該專案已經完成設置，請勿重複執行）
+
+
 ## 我還想使用 Firestore
 
 一些場合會需要使用 Firestore.
