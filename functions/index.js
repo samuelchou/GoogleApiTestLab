@@ -15,7 +15,7 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
 exports.addMessage = functions.https.onRequest(async (req, res) => {
   const original = req.query.text;
   const writeResult = await admin.firestore().collection('messages').add({original: original});
-  res.json({result: `Message with ID: ${writeResult.id} addeddd.`});
+  res.json({result: `Message with ID: ${writeResult.id} added.`});
 });
 
 // Listens for new messages added to /messages/:documentId/original and creates an
