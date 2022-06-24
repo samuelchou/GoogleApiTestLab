@@ -50,3 +50,15 @@ firebase init firestore
 
 然後照著互動完成專案設置。
 （該專案已經完成設置，請勿重複執行）
+
+# 執行虛擬機
+
+請執行以下指令：
+
+```
+firebase emulators:start
+```
+
+你可能會需要將本地 Java 更新到 8 以上的版本。
+
+好啦，現在 Emulators 會告訴你這些 Functions (API) 的位址。
